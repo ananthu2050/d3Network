@@ -288,8 +288,8 @@ var node = svg.selectAll(\".node\")
 .attr(\"class\", \"node\")
 .style(\"fill\", function(d) { return color(d.group); })
 .style(\"opacity\", {{opacity}})
-.on(\"mouseover\", mouseover)
-.on(\"mouseout\", mouseout)
+//.on(\"mouseover\", mouseover)
+//.on(\"mouseout\", mouseout)
 .call(force.drag);
 
 node.append(\"circle\")
